@@ -1,46 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>App Legal and Support Pages</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="JY Rider is a mobile app brand operated by Inhale me back in South Korea. Discover YamYam Rider and Timey Rider, playful timer apps for families.">
+<title>JY Rider | Inhale me back</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.home-nav{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:22px 0;border-bottom:1px solid #ead8c6}.home-nav a{text-decoration:none}.home-nav .brand{font-size:1.45rem;font-weight:800;color:#2d241f}.home-nav-links{display:flex;flex-wrap:wrap;gap:18px;font-size:.94rem;font-weight:650}
+.home-hero{display:grid;grid-template-columns:1.7fr 1fr;align-items:center;gap:40px;padding:74px 0 85px}.home-hero h1{font-size:clamp(2.7rem,6vw,4.4rem);letter-spacing:-.045em;line-height:1.1}.home-hero h1 em{color:#a94f2b;font-style:normal}.home-hero .lead{margin:24px 0}.primary-link{display:inline-block;background:#2d241f;color:white;padding:12px 21px;text-decoration:none;border-radius:30px;font-weight:700}.primary-link:hover{color:#fff;background:#a94f2b}
+.hero-art{height:260px;border-radius:48%;background:#ffdbac;position:relative;overflow:hidden}.hero-art:before{content:"";position:absolute;width:290px;height:250px;border:30px solid #c66b41;border-radius:50%;left:-50px;bottom:-120px;transform:rotate(-25deg)}.hero-art:after{content:"★";position:absolute;top:80px;left:95px;background:white;color:#d97845;border-radius:20px;padding:10px 22px;font-size:45px}
+.home-section{padding:66px 0}.home-section h2{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.03em}.home-section .intro{color:#6e625a;max-width:700px}.app-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:28px}.app-card{border-radius:20px;border:1px solid #ead8c6;padding:27px;background:#fff4e5}.app-card:nth-child(2){background:#eef4e9}.app-icon{font-size:40px}.app-card h3{font-size:1.7rem;margin:14px 0}.app-card .tag{font-weight:700;color:#a94f2b;font-size:.88rem;margin-top:12px}.app-card .links{margin-top:23px}
+.about{background:#fff0dc;border-top:1px solid #ead8c6;border-bottom:1px solid #ead8c6}.about-inner{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;padding:60px 0}.contact-link{overflow-wrap:anywhere}.home-footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:700px){.home-hero{display:block;padding:52px 0}.hero-art{display:none}.app-grid,.about-inner{grid-template-columns:1fr}.home-nav-links{gap:9px;font-size:.85rem}.home-section{padding:50px 0}.about-inner{padding:50px 0}}
+</style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap hero">
-      <p class="eyebrow">Legal and support</p>
-      <h1>Mobile app privacy and support</h1>
-      <p class="lead">Public pages for Yamyam Rider and Timey Rider, prepared for App Store and Google Play review.</p>
-    </div>
-  </header>
-
-  <main class="wrap main">
-    <section class="grid" aria-label="App pages">
-      <article class="card">
-        <h2>Yamyam Rider</h2>
-        <p>A child-friendly meal timer app intended for use by children together with a parent or guardian.</p>
-        <div class="links">
-          <a class="button" href="privacy/yamyam-rider/">Privacy Policy</a>
-          <a class="button" href="support/yamyam-rider/">Support</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h2>Timey Rider</h2>
-        <p>A child-friendly timer app intended for use by children together with a parent or guardian.</p>
-        <div class="links">
-          <a class="button" href="privacy/timey-rider/">Privacy Policy</a>
-          <a class="button" href="support/timey-rider/">Support</a>
-        </div>
-      </article>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>Contact: <a href="mailto:florence.jy.rider@gmail.com">florence.jy.rider@gmail.com</a></p>
-    </div>
-  </footer>
-</body>
-</html>
+<header class="site-header"><div class="wrap">
+<nav class="home-nav" aria-label="Main navigation"><a class="brand" href="./">JY Rider</a><div class="home-nav-links"><a href="#apps">Apps</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+<div class="home-hero"><div><p class="eyebrow">Playful timers for families</p><h1>Small routines.<br><em>Big little wins.</em></h1><p class="lead">We create simple, visual timers that help young children understand time, enjoy everyday routines, and celebrate progress together with parents and caregivers.</p><a class="primary-link" href="#apps">Explore our apps →</a></div><div class="hero-art" aria-hidden="true"></div></div>
+</div></header>
+<main>
+<section class="wrap home-section" id="apps"><p class="eyebrow">Our apps</p><h2>Make everyday moments more engaging.</h2><p class="intro">Two focused experiences built around visual progress, encouraging riders, and rewards.</p>
+<div class="app-grid">
+<article class="app-card"><div class="app-icon" aria-hidden="true">🍽️</div><p class="tag">Mealtime timer</p><h3>YamYam Rider</h3><p>A playful visual timer designed specifically for mealtimes. Children can watch a rider move toward the finish line and celebrate progress with stickers and reward goals.</p><div class="links"><a class="button" href="support/yamyam-rider/">Support</a><a class="button" href="privacy/yamyam-rider/">Privacy Policy</a></div></article>
+<article class="app-card"><div class="app-icon" aria-hidden="true">⏱️</div><p class="tag">Everyday activity timer</p><h3>Timey Rider</h3><p>A flexible visual timer for daily routines and activities beyond mealtimes. Choose a timer, follow the rider's journey, and celebrate completing an activity.</p><div class="links"><a class="button" href="support/timey-rider/">Support</a><a class="button" href="privacy/timey-rider/">Privacy Policy</a></div></article>
+</div></section>
+<section class="about" id="about"><div class="wrap about-inner"><div><p class="eyebrow">About us</p><h2>Made with families in mind.</h2></div><div><p><strong>JY Rider</strong> is a mobile app brand operated by <strong>Inhale me back</strong>, an independent software business based in South Korea.</p><p>Operated by Jihye Kim (김지혜), we focus on simple, child-friendly experiences designed to be used with guidance from parents or caregivers.</p></div></div></section>
+<section class="wrap home-section" id="contact"><p class="eyebrow">Contact</p><h2>Questions or feedback?</h2><p>For app support, privacy inquiries, or purchase-related questions, contact us at <a class="contact-link" href="mailto:florence.jy.rider@gmail.com">florence.jy.rider@gmail.com</a>.</p><p class="meta">Business: Inhale me back · Operator: Jihye Kim (김지혜) · South Korea</p></section>
+</main>
+<footer class="site-footer"><div class="wrap home-footer"><span>© 2026 Inhale me back · JY Rider</span><span><a href="privacy/yamyam-rider/">YamYam Privacy</a> · <a href="privacy/timey-rider/">Timey Privacy</a></span></div></footer>
+</body></html>
